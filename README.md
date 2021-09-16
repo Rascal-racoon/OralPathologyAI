@@ -1,5 +1,5 @@
 # OralPathologyAI
-Applications to support oral pathology diagnosis
+Application to support oral pathology diagnosis
  
 # DEMO
 Drawing guidelines to extract patches containing epithelium.  
@@ -16,6 +16,7 @@ Designed specially for AI pathology of oral epithelial dysplasia, but can be app
 You can create your original patch image data set, train your AI, and let it analyze your virtual slide images. The AI prediction is displayed as a linear heatmap. 
  
 # Requirement
+Python 3.8
 Necessary modules: tensorflow 2.3.0, imagesize (not essential), pysimplegui, sklearn, scipy, numpy, pandas, pillow, matplotlib, and others (os, sys, ctypes, warnings, io, re, math, random, glob, pickle, time, datetime, collections)
  
 My environment: 
@@ -58,7 +59,7 @@ If the PC have only 4 GB memory, virtual slide images of huge size cannot be loa
 This is unavoidable unless more memory is equipped on the PC. I did not experience this trouble with a PC with 8 GB memory.   
 
 # Author
-Kei Sakamoto
+Kei Sakamoto  
 E-mail: s-kei.mpa@tmd.ac.jp
  
 # License
