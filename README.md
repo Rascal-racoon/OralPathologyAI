@@ -20,7 +20,7 @@ Create the virtual environment "hoge" (your favorite name) using Anaconda.
 Copy OralPathologyAI.py to "fuga" (your favorite folder name).
 
 # Usage
-1. Reformat and rename all your image files to jpeg files with names like "000_o.jpg", "001_o.jpg", "002_o.jpg",.... and place them in your favorite folder.
+1. Reformat and rename all your image files to jpeg files with names like "000_o.jpg", "001_o.jpg", "002_o.jpg",.... and place them in your favorite folder. 
 AI reads only jpeg image files. Your virtual slide images must be converted to jpeg images of high resolution. The filenames MUST have a "_o" additive followed by ".jpg".
 In this version, I expect the filenames have three digit sequential numbers such as "000", "001", "010" and "999". Therefore, all the files should be renamed like "000_o.jpg", "001_o.jpg",..., "999_o.jpg".
 This is the original image ('o' for "original"). Later, when you annotate the lesions by color lines, jpeg files with additive "_i" (for "inked") are generated in the same folder.
