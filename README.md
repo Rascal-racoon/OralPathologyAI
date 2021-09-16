@@ -43,7 +43,7 @@ python OralPathologyAI.py
 
 4. You are ready to work on the first file, presumably "000_o.jpg".
 
-5. I am sorry but the manual is only in Japanese so far, but there are two modes "GENERATOR" and "ANNOTATOR". THe GENERATOR is to draw lines along epithelium and extract patch images perpendicular to the trace.
+5. I am sorry but the manual has not been finished so far, but there are two modes "GENERATOR" and "ANNOTATOR". THe GENERATOR is to draw lines along epithelium and extract patch images perpendicular to the trace.
 These patches can be stored as training data (after you finish annotation) or can be analyzed using the trained AI. The ANNOTATOR is to draw lines to label the lesions.
 Black line is used to mark the epithelium, to confirm that generated patches really contain epithelium. Red, green blue lines mark three different lesions.
 In my case, I used blue to mark cancer, red to mark high grade dysplasia and green to mark low grade dysplasia.  
