@@ -43,10 +43,12 @@ python OralPathologyAI.py
 
 4. You are ready to work on the first file, presumably "000_o.jpg".
 
-5. I am sorry but the manual has not been finished so far, but there are two modes "GENERATOR" and "ANNOTATOR". THe GENERATOR is to draw lines along epithelium and extract patch images perpendicular to the trace.
-These patches can be stored as training data (after you finish annotation) or can be analyzed using the trained AI. The ANNOTATOR is to draw lines to label the lesions.
+5. I am sorry but the manual has not been finished so far. There are two modes "Generator" and "Annotator". THe Generator is to draw lines along epithelium and extract patch images perpendicular to the trace.
+These patches can be stored as training data (after you finish annotation) or can be analyzed using the trained AI. The Annotator is to draw lines to label the lesions.
 Black line is used to mark the epithelium, to confirm that generated patches really contain epithelium. Red, green blue lines mark three different lesions.
-In my case, I used blue to mark cancer, red to mark high grade dysplasia and green to mark low grade dysplasia.  
+In my case, I used blue to mark cancer, red to mark high grade dysplasia and green to mark low grade dysplasia.You can enlarge the image by a wheel turn but this can be very slow in case of a huge virtual slide image.
+Instead use the subwindow that pops up by right click and select the magnification. 1x is the largest where 1 dot on the memory is shown on 1 dot on the screen (actually it should be shown 1:1 but I just used x1).
+You can enlarge or reduce on the subwindow by wheel turn.    
  
 # Note
 If the PC have only 4 GB memory, virtual slide images of huge size cannot be loaded on memory, and the run may be stalled due to MemoryError.
