@@ -2,7 +2,7 @@
 Applications to support oral pathology diagnosis
  
 # DEMO
-
+![demo1](https://user-images.githubusercontent.com/38546255/133545516-4c359c4a-b98a-4a4e-a2b7-8275e496f31c.png)
  
 # Features
 Designed specially for AI pathology of oral epithelial dysplasia, but can be applied to other organs or lesions. A unique feature is the usage of thin columnar patch images, which is convenient for training the AI by oral epithelium images of various thickness. 
