@@ -49,6 +49,9 @@ Black line is used to mark the epithelium, to confirm that generated patches rea
 In my case, I used blue to mark cancer, red to mark high grade dysplasia and green to mark low grade dysplasia.You can enlarge the image by a wheel turn but this can be very slow in case of a huge virtual slide image.
 Instead use the subwindow that pops up by right click and select the magnification. 1x is the largest where 1 dot on the memory is shown on 1 dot on the screen (actually it should be shown 1:1 but I just used x1).
 You can enlarge or reduce on the subwindow by wheel turn.    
+
+6. AI_tongueBiopsy_60x1000.h5 is the model parameters of a neural network trained to recognize [normal, low grade dysplasia, high grade dysplasia, cancer] in 60x1000 pixel patches.
+To use this AI, patch size must be set width=60, height=1000. 
  
 # Note
 If the PC have only 4 GB memory, virtual slide images of huge size cannot be loaded on memory, and the run may be stalled due to MemoryError.
