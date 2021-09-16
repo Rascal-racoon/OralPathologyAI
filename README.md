@@ -2,8 +2,15 @@
 Applications to support oral pathology diagnosis
  
 # DEMO
+Drawing guidelines to extract patches containing epithelium.  
 ![demo1](https://user-images.githubusercontent.com/38546255/133545516-4c359c4a-b98a-4a4e-a2b7-8275e496f31c.png)
- 
+  
+Training AI with your choice of hyperparameters.  
+![demo2](https://user-images.githubusercontent.com/38546255/133545910-ea9e61e8-d52c-40dc-84f0-c62559243e67.png) 
+  
+Analyzing a tongue biopsy specimen using pretrained AI and display as an atypia heatmap.  
+![demo3](https://user-images.githubusercontent.com/38546255/133545972-8a668f40-b9a1-4d1c-8e50-4c2a06911df5.png)
+
 # Features
 Designed specially for AI pathology of oral epithelial dysplasia, but can be applied to other organs or lesions. A unique feature is the usage of thin columnar patch images, which is convenient for training the AI by oral epithelium images of various thickness. 
 You can create your original patch image data set, train your AI, and let it analyze your virtual slide images. The AI prediction is displayed as a linear heatmap. 
