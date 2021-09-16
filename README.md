@@ -24,7 +24,7 @@ Windows 10
 
 # Installation
 Create the virtual environment "hoge" (your favorite name) using Anaconda.
-Copy OralPathologyAI.py to "fuga" (your favorite folder name).
+Copy OralPathAI.py to "fuga" (your favorite folder name).
 
 # Usage
 1. Reformat and rename all your image files to jpeg files with names like "000_o.jpg", "001_o.jpg", "002_o.jpg",.... and place them in your favorite folder. 
@@ -33,11 +33,11 @@ In this version, I expect the filenames have three digit sequential numbers such
 This is the original image ('o' for "original"). Later, when you annotate the lesions by color lines, jpeg files with additive "_i" (for "inked") are generated in the same folder.
 When you draw guidelines for epithelium, jpeg files with additive "_t" (for "trace") are generated in the same folder.  
 
-2. Run oralPathologyAI.py under the virtual environment.
+2. Run oralPathAI.py under the virtual environment.
 Open Anaconda promt and type; 
 conda activate hoge
 Move to fuga folder and type;
-python oralPathologyAI.py
+python oralPathAI.py
 
 3. At the initial run, you are prompted to select the working folder. Browse to the folder where all the virtual slide jpeg files are placed and press OK.
 
