@@ -16,6 +16,26 @@ Designed specially for AI pathology of oral epithelial dysplasia, but can be app
 You can create your original patch image data set, train your AI, and let it analyze your virtual slide images. The AI prediction is displayed as a linear heatmap.  
 
 Since epithelial dysplasia have a polarity and various thickeness, thin columnar patch images are more convenient than square patches.  
+![slide1](https://user-images.githubusercontent.com/38546255/135052671-d540c58e-5e3c-4702-a788-7183939de318.png)  
+Lesions are annotated simply by color lines prior to patch collection, reducing the labor for annotation.  
+![slide2](https://user-images.githubusercontent.com/38546255/135054602-33c0d365-9eb4-43b4-9bf1-fc5e640e886a.png)  
+AI prediction is displayed as a heatmap.  
+![slide3](https://user-images.githubusercontent.com/38546255/135054618-104baa3e-5295-4acd-a8c9-bc94fd864f99.png)  
+This is an example using the weight matrix [0, 1, 2, 3].  
+![slide4](https://user-images.githubusercontent.com/38546255/135054629-880a7c78-8950-400e-9c73-30eb64546755.png)  
+Weight matrix [0, 1, 2, 3] is not good for grading dysplasia.  
+![slide5](https://user-images.githubusercontent.com/38546255/135054635-5a488f38-44df-4ab8-9171-08e7a83051d3.png)  
+Weight matrix is adjusted to focus on the difference of LGD/HGD and HGD/Cancer.  
+![slide6](https://user-images.githubusercontent.com/38546255/135054659-2fbf7b43-fe79-4b51-a58b-f22b93067332.png)  
+Strong signal appears in the lower heatmap (W = [0,0,0,1]) in cancer.  
+![slide7](https://user-images.githubusercontent.com/38546255/135054670-d49dd737-646b-486c-a6fc-202a538ca6d5.png)  
+In high grade dysplasia, strong signal appears in the upper heatmap, while no signal appears in the lower heatmap.  
+![slide8](https://user-images.githubusercontent.com/38546255/135054677-59e9ddb4-71c2-431e-b543-697882d6d590.png)  
+In low grade dysplasia, only weak signal appears in the upper heatmap.  
+![slide9](https://user-images.githubusercontent.com/38546255/135054700-3e100596-67f8-4180-b907-a965d0d61fcf.png)  
+In our analysis, concordance rate between heatmap diagnosis (diagnosis determined only by a heatmap) and the real diagnosis was 89%.  
+
+
 
  
 # Requirement
