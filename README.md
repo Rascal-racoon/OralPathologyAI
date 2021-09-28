@@ -13,7 +13,10 @@ Analyzing a tongue biopsy specimen using pretrained AI and display as an atypia 
 
 # Features
 Designed specially for AI pathology of oral epithelial dysplasia, but can be applied to other organs or lesions. A unique feature is the usage of thin columnar patch images, which is convenient for training the AI by oral epithelium images of various thickness. 
-You can create your original patch image data set, train your AI, and let it analyze your virtual slide images. The AI prediction is displayed as a linear heatmap. 
+You can create your original patch image data set, train your AI, and let it analyze your virtual slide images. The AI prediction is displayed as a linear heatmap.  
+
+Since epithelial dysplasia have a polarity and various thickeness, thin columnar patch images are more convenient than square patches.  
+
  
 # Requirement
 Python 3.8  
