@@ -1673,7 +1673,7 @@ class PW:  # PatchWindow
     MODE = ['Generator', 'Annotator']
     patchnum_menulist = ['10', '50', '100', '200', '300', '400', '500', '700',
                          '1000', '1500', '2000']
-    patchheight_menulist = ['500　', '1000　', '1500　', '2000 ']  # Space is added to discriminate from above same numbers
+    patchheight_menulist = ['100 ', '200 ', '300 ', '500 ', '1000 ', '1500 ', '2000 ']  # Space is added to discriminate from above same numbers
     patchwidth_menulist = ['20', '40', '60', '80', '100']
     insetsize_menulist = ['0.5', '0.6', '0.7', '0.8', '0.9', '1.0']
     BTNTGL_TXT = ['ToggleDirection (c)', 'ToggleColor (c)']
@@ -2270,7 +2270,7 @@ class PW:  # PatchWindow
             if g_flag and not j_flag:
                 # Make _i.jpg
                 _platform = PG(_o_path, None, None, None, self.WINDOW_SIZE,
-                               initialbutton_color=self.BTN_CLR[self.clr_idx][1], annot_mode=True)
+                               initialbutton_color=self.BTN_CLR[self.clr_idx][1], annot_mode=False)
                 _platform.load_annotation(self.ANNOTATIONFOLDER)
                 _platform.draw_annotation()
 
